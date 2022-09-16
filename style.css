@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+
+
+}
+body {
+    background-image: url(https://img.freepik.com/free-vector/data-visualization-dynamic-wave-pattern-vector_53876-77451.jpg?w=2000&t=st=1663187879~exp=1663188479~hmac=844f3c8b845b37cb776f6ab06af27d5ad9ce61977a47b94f8c9b2951f487a53d);
+
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    text-shadow: 2px 2px 15px rgb(176, 230, 255);
+    color: #acb6e5;
+    font-size: 1.2rem;
+}
+
+form {
+    min-height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form input,
+form button {
+    padding: 5px 5px 5px 10px;
+    font-size: 35px;
+    border: none;
+    background: #f4f4f4;
+}
+
+form button {
+    padding: 5px 10px;
+    color: rgba(74, 21, 110, 1);
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem;
+    font-size: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+    color: rgba(74, 21, 110, 1);
+    width: 15rem;
+    cursor: pointer;
+    padding: 1rem;
+
+}
+button{
+    padding: 5px 10px;
+    color: rgba(74, 21, 110, 1);
+    background: white;
+    transition: all 0.3s ease;
+}
